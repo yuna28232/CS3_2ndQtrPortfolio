@@ -37,15 +37,16 @@ h1{
   color: powderblue;
   text-align: center;
   }
-header{
+header,footer{
     background-color: #000000;
+    background-image: url(assets/galaxy.jpg);
     text-align: center;
     padding: 10px;
 }
 header > img {
-    display: block;
-    margin-right: auto;
+    display:block;
     margin-left: auto;
+    margin-right: auto;
   }
 body > img {
     width: 560px;
@@ -56,21 +57,34 @@ body > img {
     float: left;
 }
 iframe {
-    width:560px;
-    height:360px;
-    border: 6.7px;
+  border: 3px;
     border-style: dashed;
     border-color: mediumaquamarine;
+    float: inline-end;
 }
 body {
     font-family: cursive;
     color: lightpink;
-    float: right
+    float: right;
 }
 table{
     border: 6.7px;
     border-color: hotpink;
+    border-style: ridge;
     font-family: cursive;
     color: lightpink;
 }
 
+a {
+  color:fuchsia;
+}
+
+a:hover{
+   font-style: italic;
+   font-size: large;
+   color: cyan;
+}
+
+a:visited{
+   color:darkmagenta;
+}
